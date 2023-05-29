@@ -1,3 +1,3 @@
 def call(){
-    sh 'mvn cleam package sonar:sonar'
+    sh 'mvn clean package sonar:sonar'
 }
